@@ -4,7 +4,7 @@ import createqrRouter from './routes/createqr.js'; // Import the create QR code 
 import loading from './middlewares/loading.js'; // Import the loading middleware
 const MONGO_URI="mongodb+srv://Harry:Emperor2013$@techmindswebsitecluster.sdu6lju.mongodb.net/?retryWrites=true&w=majority&appName=TechmindsWebsiteCluster";
 const app = express()
-const PORT = process.env.PORT || 2000;      
+const PORT = process.env.PORT || 10000;      
 
 dotenv.config();
 
