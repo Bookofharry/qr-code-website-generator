@@ -15,7 +15,7 @@ app.use(express.static('public')); // Serve static files from the public directo
 app.use(express.urlencoded({ extended: true }));
 
 app.use(loading); // Use the loading middleware
-app.use('/create', createqrRouter); // Use the create QR code route
+app.use('/', createqrRouter); // Use the create QR code route
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);         
