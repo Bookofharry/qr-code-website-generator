@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Beautiful QR Code Generator</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/styles.css" />
+ 
+</head>
+<body>
+
+  <div class="container">
+   <form action="create" method="post">
+        <h1>QR Code Generator</h1>
+        <input type="text" id="qr-text" name="url" placeholder="Enter URL" />
+        <button type="submit">Generate QR Code</button>
+        <!-- <canvas id="qr-code"></canvas> -->
+   </form>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/qrious/dist/qrious.min.js"></script>
+  
+
+</body>
+</html>
